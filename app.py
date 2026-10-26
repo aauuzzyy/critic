@@ -84,7 +84,7 @@ if uploaded_file is not None:
 
                 # 2단계: Gemini API 호출
                 genai.configure(api_key=api_key)
-                model = genai.GenerativeModel('gemini-3.8-flash')
+                model = genai.GenerativeModel('gemini-3.6-flash')
 
                 prompt = f"""
                 너는 20년 경력의 상업/예술 사진 작가이자 프로 사진 크리틱 전문가야.
